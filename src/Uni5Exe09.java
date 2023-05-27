@@ -27,7 +27,7 @@ public class Uni5Exe09 {
                 maisde20++;
             }
         }
-    System.out.println(igual18);        
+    System.out.println("Os alunos que tem 18 anos são: "+igual18);        
     System.out.println("O número de alunos com idade acima de 20 anos é: " + maisde20);
 sc.close();
     }

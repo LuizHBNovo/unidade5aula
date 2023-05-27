@@ -5,6 +5,7 @@ public class Uni5Exe01{
         Scanner teclado = new Scanner(System.in);
 
         for(int contador = 1; contador <=20; contador++){
+            System.out.println("Informe o "+contador+"º número");
             int numeroLido = teclado.nextInt();
             if(numeroLido%2 == 0){
                 System.out.println("Par");

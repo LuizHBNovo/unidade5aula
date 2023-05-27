@@ -4,6 +4,7 @@ public class Uni5Exe05 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
+        System.out.println("Informe um número maior que 2");
         int n = teclado.nextInt();
         int numero = 8;
         if(n > 2){
